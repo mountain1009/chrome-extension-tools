@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Vue3 - Chrome拡張サンプル",
+  "version": "1.0",
+  "description": "Vue3でChrome拡張を作成したサンプルです。",
+  "permissions": [
+    "tabs",
+    "bookmarks",
+    "activeTab",
+    "scripting"],
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
