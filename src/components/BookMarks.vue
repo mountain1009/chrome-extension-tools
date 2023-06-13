@@ -495,7 +495,6 @@ const bookmarks = ref<chrome.bookmarks.BookmarkTreeNode[]>(import.meta.env.DEV
   : [])
 
 onMounted(() => {
-  console.log(import.meta.env.DEV)
   chrome.bookmarks.getTree((tree) => {
     bookmarks.value = tree
   },

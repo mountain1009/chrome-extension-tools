@@ -1,15 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Vue3 - Chrome拡張サンプル",
+  "name": "Tab & Bookmark Manager",
   "version": "1.0",
-  "description": "Vue3でChrome拡張を作成したサンプルです。",
+  "description": "Tab & Bookmark Manager",
   "permissions": [
     "tabs",
     "bookmarks",
     "activeTab",
-    "scripting"],
+    "scripting",
+    "tabGroups"
+  ],
   "action": {
-    "default_title": "Click Me",
+    "default_title": "Tab & Bookmark Manager",
     "default_popup": "index.html"
   },
   "host_permissions": ["http://*/*", "https://*/*"]
